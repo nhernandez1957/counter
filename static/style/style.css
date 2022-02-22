@@ -1,0 +1,37 @@
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+h1 {
+    background-color: antiquewhite;
+    color: rebeccapurple;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button1 {
+    background-color: aqua;
+    color: black;
+    margin: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 16px;
+}
+
+#button2 {
+    background-color: crimson;
+    color: black;
+    margin: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 16px;
+}
