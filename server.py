@@ -14,7 +14,7 @@ def index():
 
 @app.route('/destroy_session')
 def destroy():
-    session.pop('visits')
+    session.clear()
     return render_template("index.html")
 
 if __name__=="__main__":  
